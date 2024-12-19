@@ -11,8 +11,8 @@ function Home() {
       <Link to="./new-ticket" className="btn btn-reverse btn-block">
         <FaQuestionCircle /> Create New Ticket
       </Link>
-      <Link to="./ticket" className="btn btn-block">
-        <FaTicketAlt /> View My Ticketss
+      <Link to="./tickets" className="btn btn-block">
+        <FaTicketAlt /> View My Tickets
       </Link>
     </>
   );
