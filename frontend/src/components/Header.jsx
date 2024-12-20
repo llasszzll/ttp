@@ -1,4 +1,5 @@
 import { FaSignInAlt, FaSignOutAlt, FaUser } from "react-icons/fa";
+/* import logo from "./img/logo.png"; */
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { logout, reset } from "../features/auth/authSlice";
@@ -17,6 +18,8 @@ function Header() {
   return (
     <header className="header">
       <div className="logo">
+        {/*  <img src={logo} alt="" /> */}
+        {/* <img src={require("./img/TTP-logo.png")} /> */}
         <Link to="/">Support Desk</Link>
       </div>
       <ul>
